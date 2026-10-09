@@ -10,10 +10,11 @@ The script is located at `cad/download_model.py`.
 
 ## Running the script
 
-To use the download script, you will need to have `python` and `uv `installed. If
+To use the download script, you will need to have `python` and `uv` installed. If
 you don't have python installed, there are various guides on how to get
 it installed such as [this one](https://wiki.python.org/moin/BeginnersGuide(2f)Download.html).
 
 Once python is installed, installing `uv` is simple. See [here](https://docs.astral.sh/uv/getting-started/installation/).
 
-
+Next, you will need to [create your API keys](https://onshape-public.github.io/docs/api-intro/quickstart/#3-create-your-api-keys) and store them in `cad/secrets.json`. A template is
+provided at `/cad/secrets.example.json`.
