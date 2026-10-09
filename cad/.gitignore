@@ -1,2 +1,3 @@
 secrets.yaml
 downloads/**
+uv.lock

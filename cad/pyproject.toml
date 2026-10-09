@@ -1,0 +1,19 @@
+[project]
+name = "download-model"
+version = "0.0.0"
+description = "A script for automatically downloading models from onshape"
+readme = "https://robot-learning-group.github.io/rlg-g1-face"
+authors = [
+  { name = "tomicodev", email = "humansbadrobotsgood@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pyyaml>=6.0.3",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+download-model = "download_model:main"
+
+[tool.ruff.format]
+quote-style = "single"

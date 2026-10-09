@@ -22,5 +22,5 @@ Finally, to run the download script, change directory into the `cad` and
 run 
 
 ```bash
-uv run download_model.py
+uv run download-model
 ```
