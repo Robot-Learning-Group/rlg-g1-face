@@ -1,3 +1,5 @@
+# General settings
+
 # onshape server url
 onshape_server: https://cad.onshape.com/api/v17
 # document to download files from
@@ -5,6 +7,11 @@ document_id: 0979ae98021520f5b9b15ec4
 # id of the boolean property which marks which parts
 # should be exported
 export_property_id: 6ac858725613576ec52ea4e7
+# path to download file to
+dlpath: ./downloads
+
+# Detailed settings
+
 # use default workspace
 use_default_workspace: true
 # use a specific workspace/version/microversion
