@@ -16,5 +16,11 @@ it installed such as [this one](https://wiki.python.org/moin/BeginnersGuide(2f)D
 
 Once python is installed, installing `uv` is simple. See [here](https://docs.astral.sh/uv/getting-started/installation/).
 
-Next, you will need to [create your API keys](https://onshape-public.github.io/docs/api-intro/quickstart/#3-create-your-api-keys) and store them in `cad/secrets.json`. A template is
-provided at `/cad/secrets.example.json`.
+Next, you will need to [create your API keys](https://onshape-public.github.io/docs/api-intro/quickstart/#3-create-your-api-keys) and store them in `cad/secrets.yaml`. A template is provided at `cad/secrets.example.yaml`.
+
+Finally, to run the download script, change directory into the `cad` and
+run 
+
+```bash
+uv run download_model.py
+```
