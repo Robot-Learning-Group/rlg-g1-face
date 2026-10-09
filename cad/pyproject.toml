@@ -2,7 +2,7 @@
 name = "download-model"
 version = "0.0.0"
 description = "A script for automatically downloading models from onshape"
-readme = "https://robot-learning-group.github.io/rlg-g1-face"
+readme = "README.md"
 authors = [
   { name = "tomicodev", email = "humansbadrobotsgood@gmail.com" }
 ]
@@ -17,3 +17,11 @@ download-model = "download_model:main"
 
 [tool.ruff.format]
 quote-style = "single"
+
+[build-system]
+requires = ["uv_build>=0.8.0,<0.9.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "download_model"
+module-root = ""

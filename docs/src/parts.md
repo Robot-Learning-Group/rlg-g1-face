@@ -22,5 +22,6 @@ Finally, to run the download script, change directory into the `cad` and
 run 
 
 ```bash
+uv sync
 uv run download-model
 ```
